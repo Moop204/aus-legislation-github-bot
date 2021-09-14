@@ -1,12 +1,13 @@
 {
   "name": "aus-legislation",
   "version": "0.0.1",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "repository": "https://github.com/Moop204/aus-legislation",
   "author": "Moop204",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "tsc "
   },
   "devDependencies": {
     "ts-node": "^10.2.1",
